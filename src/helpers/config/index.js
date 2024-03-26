@@ -1,8 +1,8 @@
 export const config = {
   project: {
     name: "",
-    slogan: "Slogan buraya yazılır",
-    description: "Betimleme kısmı burada yer alabilir",
+    slogan: "COMER",
+    description: "Geleceğin kapısına erişin...",
     version: '1.0.0',
   },
   contact:{
