@@ -3,42 +3,42 @@
     "id": 1,
     "firstName": "John",
     "lastName": "Smith",
-    "title": "Senior IT Instructor",
+ 
     "image": "instructor-01.jpg"
   },
   {
     "id": 2,
     "firstName": "Jane",
     "lastName": "Doe",
-    "title": "IT Professor",
-    "image": "instructor-02.jpg"
+  
+    "image": "instructor-08.jpg"
   },
   {
     "id": 3,
-    "firstName": "Sarah",
+    "firstName": "Mark",
     "lastName": "Johnson",
-    "title": "IT Specialist",
+  
     "image": "instructor-03.jpg"
   },
   {
     "id": 4,
-    "firstName": "Emily",
+    "firstName": "Mohammad",
     "lastName": "Williams",
-    "title": "IT Consultant",
-    "image": "instructor-05.jpg"
-  },
-  {
-    "id": 5,
-    "firstName": "David",
-    "lastName": "Brown",
-    "title": "Lead IT Trainer",
+   
     "image": "instructor-04.jpg"
   },
   {
+    "id": 5,
+    "firstName": "Lazy",
+    "lastName": "Brown",
+   
+    "image": "instructor-05.jpg"
+  },
+  {
     "id": 6,
-    "firstName": "Frank",
+    "firstName": "Bill",
     "lastName": "Jones",
-    "title": "IT Educator",
-    "image": "instructor-01.jpg"
+
+    "image": "instructor-06.jpg"
   }
 ]

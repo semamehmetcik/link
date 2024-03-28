@@ -4,34 +4,15 @@
     background-color : brown; 
     color: bisque;
     text-align: center;
-    padding: 50px 0;
+    padding: 20px 0;
     font-family: 'Poppins', sans-serif;
 
     h1{
-        font-weight: 700;
-        font-size: 4rem;
+        font-weight: 400;
+        font-size: 3rem;
         display: flex;
         justify-content: center;
         align-items: center;
         text-transform: uppercase;
-
-        &::before{
-            content: '-';
-            display: block;
-            width: 100px;
-            height: 1px;
-            background-color: bisque;
-            margin: 20px auto;
-        
-        }
-
-        &::after{
-            content: '-';
-            display: block;
-            width: 100px;
-            height: 1px;
-            background-color: bisque;
-            margin: 20px auto;
-        }
     }
 }

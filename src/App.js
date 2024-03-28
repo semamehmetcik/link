@@ -4,12 +4,13 @@ import { getUser } from "./api/auth-service";
 import { useDispatch } from "react-redux";
 import { login, logout } from "./store/slices/auth-slice";
 import LoadingSpinner from "./components/common/loading-spinner";
+// library-page import ediliyor
+import LibraryPage from "./components/library-page/library-page";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
   const dispatch = useDispatch();
   
-
 
   const loadData = async () => {
     try {
@@ -28,7 +29,7 @@ const App = () => {
     // eslint-disable-next-line
   }, []);
 
-  return <>{loading ? <LoadingSpinner loadingText="Loading..."/> : <AppRouter />}</>;
+  return <>{loading ? <LoadingSpinner loadingText="Loading..."/> : <><LibraryPage /><AppRouter /></>}</>;
 };
 
 export default App;

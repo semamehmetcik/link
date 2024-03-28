@@ -11,7 +11,7 @@ import {
 import { swalAlert, swalConfirm } from "../../../helpers/functions/swal";
 import { deleteManager, getManagersByPage } from "../../../api/manager-service";
 
-const EducationTermList = () => {
+const ManagerList = () => {
   const [list, setList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [totalRows, setTotalRows] = useState(0);
@@ -32,8 +32,8 @@ const EducationTermList = () => {
 
   const loadData = async (page) => {
     try {
-      const resp = await getEducationTermsByPage(page, lazyState.rows);
-      setUsers(resp.content);
+      const resp = await getManagersByPage(page, lazyState.rows);
+      setList(resp.content);
       setTotalRows(resp.totalElements);
     } catch (err) {
       console.log(err);
@@ -100,7 +100,7 @@ const EducationTermList = () => {
           <DataTable
             lazy
             dataKey="userId"
-            value={users}
+            value={list}
             paginator
             rows={lazyState.rows}
             totalRecords={totalRows}

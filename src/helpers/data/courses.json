@@ -5,11 +5,10 @@
         "desc": "Kitaplarımızı Keşfedin",
         "type": "Book",
         "date": "2022-01-20",
-        "user": "JohnDoe",
+
         "comment": "Excellent book!",
-        "rating": 5,
-        "price": 29.99,
-        "image": "courses1.webp",
+
+        "image": "course-01.jpg",
         "featured": true
     },
     {
@@ -18,11 +17,10 @@
         "desc": "Herkese Açık",
         "type": "Book",
         "date": "2022-01-21",
-        "user": "JaneSmith",
+  
         "comment": "Highly recommended!",
-        "rating": 4,
-        "price": 39.99,
-        "image": "courses2.webp",
+
+        "image": "course-02.jpg",
         "featured": true
     },
     {
@@ -31,11 +29,10 @@
         "desc": "Herkes İçin Bir Şeyler Var",
         "type": "Course",
         "date": "2022-01-22",
-        "user": "BobJohnson",
+  
         "comment": "Great course content!",
-        "rating": 4.5,
-        "price": 49.99,
-        "image": "courses3.webp",
+
+        "image": "course-03.jpg",
         "featured": true
     }
 

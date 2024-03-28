@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "The story of Holden Caulfield's experiences in New York City after being expelled from Pencey Prep.",
+      "image": "library-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "The story of young girl Scout Finch and her father, Atticus Finch, who is an attorney defending a black man accused of raping a white woman.",
+      "image": "library-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel set in Airstrip One, formerly Great Britain, a province of the superstate Oceania.",
+      "image": "library-3.jpg"
+    }
+   
+  ]
+  

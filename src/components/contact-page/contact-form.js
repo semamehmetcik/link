@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Col, Form, InputGroup, Row} from 'react-bootstrap'
+import { Button, Col, Form, InputGroup, Row, Spinner } from 'react-bootstrap'
 import { FiMail, FiMessageSquare, FiSend, FiTag, FiUser } from "react-icons/fi";
 import "./contact-form.scss"
 import * as Yup from "yup";

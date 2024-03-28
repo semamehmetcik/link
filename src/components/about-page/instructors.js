@@ -9,7 +9,7 @@ const Instructors = () => {
     <Container className="instructors">
       <Row className="g-5">
         <Col lg={6}>
-          <h2>Our Most Experienced Instructors</h2>
+          <h2>LİBRARY STAFF</h2>
         </Col>
         {instructors.map((instructor) => (
           <Col lg={3} md={4} sm={6} key={instructor.id}>

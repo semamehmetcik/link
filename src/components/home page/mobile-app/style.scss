@@ -1,27 +1,21 @@
-.outline {
-    color: bisque;
-    background-color: rgb(156, 52, 14);
+@use "../../../styles/variables" as v;
 
-  }
-  
-  .outline:hover {
-    background-color: rgb(200, 85, 32);
-    color: bisque;
-  }
-  
 .mobile-app{
-    background-color: cadetblue;
+    background-color: v.$color1;
     transform: translateY(50px);
-    >div{
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+
+    > div{
         padding: 50px;
-    }
-    h1{
-        color: bisque;
     }
 
     div[class^="col"]{
-        display: flex ;
+        display: flex;
         align-items: center;
+
         &:last-child{
             justify-content: start;
 
@@ -30,10 +24,11 @@
             }
 
 
-            @media(min-width:992px) {
-                    justify-content:end;
-
-                }
+            @media(min-width: 992px) {
+                justify-content: end;
+            }
+        }
     }
-}
+
+
 }

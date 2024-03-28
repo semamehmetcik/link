@@ -9,7 +9,7 @@ const MobileApp = () => {
       <div>
         <Row className="g-4">
           <Col lg={7}>
-            <h1>Online Kütüphane</h1>
+            <h1>Are you ready to start your online course</h1>
           </Col>
           <Col lg={5}>
             <Button variant="outline-warning">
@@ -26,7 +26,3 @@ const MobileApp = () => {
 };
 
 export default MobileApp;
-
-
-
-

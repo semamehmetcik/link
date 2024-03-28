@@ -1,28 +1,43 @@
-import React from 'react'
-import { Card, Col, Container, Row } from 'react-bootstrap'
-import { useSelector } from 'react-redux';
+// GridExample component
+
+import React from 'react';
+import Card from 'react-bootstrap/Card'
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
+import { FaUsers, FaLeaf, FaBook, FaPrint, FaLayerGroup, FaHandshake, FaHandHolding, FaPrayingHands } from 'react-icons/fa';
+import "./dashboard-navigation.scss";
 
 
-const DashboardNavigation = () => {
-    const {menu} = useSelector(state=> state.auth);
-   
+function GridExample() {
+  const icons = [FaUsers, FaLeaf, FaBook, FaPrint, FaLayerGroup, FaHandshake, FaHandHolding, FaPrayingHands];
+  const categories = ["Members", "Authors", "Books", "Publishers", "Categories", "Total Loans", "Not returned", "Expired"];
 
   return (
-    <Container>
-        <Row className="g-4">
-            {menu.map((item) => (
-                <Col md={4} key={item.title}>
-                    <Card>
-                        <Card.Body className="text-center">
-                            <Link to={item.link}>{item.title}</Link>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            ))}
-        </Row>
-    </Container>
-  )
+    <div className='dashboard-navigation'>
+      <Row xs={2} md={2} lg={3} className="g-4">
+        {categories.map((category, idx) => (
+          <Col key={idx}>
+            <Link to={`/${category.toLowerCase()}`} className="dashboard-card-link">
+              <Card className="dashboard-card d-flex align-items-center">
+                <Card.Body className="d-flex justify-content-between">
+                  <div>
+                    <Card.Title className="dashboard-card-title">{category}</Card.Title>
+                    <Card.Text className="dashboard-card-text">
+                      1231
+                    </Card.Text>
+                  </div>
+                  <div className="dashboard-icon-container">
+                    {React.createElement(icons[idx])}
+                  </div>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+        ))}
+      </Row>
+    </div>
+  );
 }
 
-export default DashboardNavigation
+export default GridExample;
