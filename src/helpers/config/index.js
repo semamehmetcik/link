@@ -1,12 +1,12 @@
 export const config = {
   project: {
-    name: "",
+    name: "COMER LİBRARY PAGE",
     slogan: "COMER",
     description: "Geleceğin kapısına erişin...",
     version: '1.0.0',
   },
   contact:{
-      phone1: "+1 (315) 686-8284",
+      phone1: "+09 (552)8929947",
       phone2: "+1 (315) 686-828",
       email: "info@itmasteryschool.com",
       address: "196 Bleecker St, New York, NY 10012, USA",

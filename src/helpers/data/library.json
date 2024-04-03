@@ -19,7 +19,162 @@
       "author": "George Orwell",
       "description": "A dystopian novel set in Airstrip One, formerly Great Britain, a province of the superstate Oceania.",
       "image": "library-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "The story primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession for the beautiful former debutante Daisy Buchanan.",
+      "image": "library-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "The story follows the main character Elizabeth Bennet as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of the British Regency.",
+      "image": "library-5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "description": "The story is set in a time \"between the Dawn of Færie and the Dominion of Men\", and follows the quest of home-loving hobbit Bilbo Baggins to win a share of the treasure guarded by the dragon, Smaug.",
+      "image": "library-6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "description": "The sequel to The Hobbit, and is the second and third installment in Tolkien's epic fantasy series.",
+      "image": "library-7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "description": "The story follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry.",
+      "image": "library-8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "description": "The story follows a young girl named Alice who falls down a rabbit hole into a fantasy world populated by peculiar creatures.",
+      "image": "library-9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "description": "The story is set in the antebellum Southern United States, and is a direct sequel to The Adventures of Tom Sawyer.",
+      "image": "library-10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "description": "The story follows the adventures of the narrator Ishmael as he sails on the whaling ship Pequod, under the command of Captain Ahab.",
+      "image": "library-11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "A historical novel set in the Napoleonic era, it concerns the French invasion of Russia and the impact of the Napoleonic era on Tsarist society.",
+      "image": "library-12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "description": "The story focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in St. Petersburg who formulates a plan to kill an unscrupulous pawnbroker for her money.",
+      "image": "library-13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "description": "The story focuses on the journey home of Odysseus, king of Ithaca, after the fall of Troy.",
+      "image": "library-14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "description": "The story follows the Buendía family's history in",
+      "image": "library-15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "description": "The story revolves around a young man named Dorian Gray, who becomes the subject of a painting by artist Basil Hallward.",
+      "image": "library-16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "description": "The story follows the adventures of an elderly man named Alonso Quixano who believes himself to be a knight, who sets out with his loyal squire Sancho Panza on a quest to revive chivalry and bring justice to the world.",
+      "image": "library-17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": "The story follows Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment.",
+      "image": "library-18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "description": "The story revolves around the murder of Fyodor Pavlovich Karamazov, an immoral and lecherous landowner, at the hands of his son Dmitri Fyodorovich Karamazov, a desperate and passionate man.",
+      "image": "library-19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "description": "The story takes place in France, Italy, and islands in the Mediterranean during the historical events of 1815–1839.",
+      "image": "library-20.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "description": "The story follows Jonathan Harker, a young English lawyer, as he travels to Transylvania to meet Count Dracula, who then travels to England to spread the undead curse.",
+      "image": "library-21.jpg"
+    },
+    {
+      "id": 22,
+      "title": "The Iliad",
+      "author": "Homer",
+      "description": "The story is set during the Trojan War, the ten-year siege of the city of Troy by a coalition of Greek states.",
+      "image": "library-22.jpg"
+    },
+    {
+      "id": 23,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "description": "The story describes Dante's journey through Hell, guided by the ancient Roman poet Virgil.",
+      "image": "library-23.jpg"
+    },
+    {
+      "id": 24,
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "description": "The story's protagonist Meursault is an indifferent Algerian, who indifferent to society and its rules.",
+      "image": "library-24.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "description": "The story follows the lives and interactions of several characters, focusing on the struggles of ex-convict Jean Valjean and his experience of redemption.",
+      "image": "library-25.jpg"
     }
+  
    
   ]
   

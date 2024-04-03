@@ -1,36 +1,25 @@
-import React, { useState } from 'react';
-import { Card, Button, Form, Col } from 'react-bootstrap';
+import React from 'react';
+import { Card } from 'react-bootstrap';
+import { FiUser, FiTrendingUp } from 'react-icons/fi';
+import { Link } from 'react-router-dom'; // React Router kullanılarak bağlantı eklendi
+import './library-page.scss';
+import "../../helpers/data/library.json"
 
-const LibraryPage = ({ image, title, user, rating, price }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
-    // Arama işlemlerini burada gerçekleştirin
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Form submit işlemlerini burada gerçekleştirin
-  };
-
+const LibraryPage = ({ id, image, title, author, description }) => {
   return (
     <Card className="library-page">
-      <Card.Body className="d-flex flex-column align-items-center justify-content-center brown">
-        <Form onSubmit={handleSubmit} className="d-flex">
-          <Col xs={9}>
-            <Form.Control
-              type="text"
-              placeholder="Search..."
-              value={searchTerm}
-              onChange={handleSearch}
-            />
-          </Col>
-          <Col xs={3}>
-            <Button variant="primary" type="submit">Search</Button>
-          </Col>
-        </Form>
-        {/* Diğer bileşen içeriği */}
+      <Card.Body>
+        <div className="image">
+          {/* Her kitap için ayrıntıları görüntülemek için Link bileşeni eklendi */}
+          <Link to={`/book/${id}`} className="book-link">
+            <Card.Img variant="top" src={`/images/library/${image}`} alt={title} className="img-fluid" />
+          </Link>
+        </div>
+        <Card.Title>{title}</Card.Title>
+        <div><FiUser /> {author}</div>
+        <Card.Subtitle>
+          <div><FiTrendingUp /> {description}</div>
+        </Card.Subtitle>
       </Card.Body>
     </Card>
   );

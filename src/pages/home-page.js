@@ -12,11 +12,11 @@ const HomePage = () => {
         <Slider/>
         <Spacer/>
         <Welcome/> 
-        <Spacer/>
+   
         <FeaturedCourses/>
-        <Spacer/>
+       
         <UpcomingEvents/>
-        <Spacer/>
+        
         <MobileApp/>
     </>
   )

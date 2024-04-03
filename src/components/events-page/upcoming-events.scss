@@ -1,10 +1,11 @@
 @use "../../styles/variables" as v;
 
 .upcoming-events{
+    
     h2{
         display: flex;
         justify-content: space-between;
-        color: v.$color2;
+        color: v.$color13;
         margin-bottom: 50px;
     }
 

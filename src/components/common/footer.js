@@ -24,6 +24,7 @@ const Footer = () => {
 
             <Nav className="flex-column">
               <Nav.Link  as={Link} to="/">Home</Nav.Link>
+              <Nav.Link  as={Link} to="/">Library</Nav.Link>
               <Nav.Link  as={Link} to="/courses">Courses</Nav.Link>
               <Nav.Link  as={Link} to="/events">Events</Nav.Link>
               <Nav.Link  as={Link} to="/about">About</Nav.Link>

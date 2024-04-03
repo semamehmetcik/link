@@ -1,17 +1,24 @@
 import React from 'react'
 import PageHeader from '../components/common/page-header'
 import Spacer from '../components/common/spacer'
-import Library from '../components/library-page/library-page'
+import Library from '../components/library-page/library'
 
-const LibraryPage = () => {
+
+
+
+
+
+const MyLibraryPage = () => {
   return (
     <>
-        <PageHeader title="Courses"/>
+        <PageHeader title="Library"/>
         <Spacer/>
         <Library/>
         <Spacer/>
+
+       
     </>
   )
 }
 
-export default LibraryPage
+export default MyLibraryPage;

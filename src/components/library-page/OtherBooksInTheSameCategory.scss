@@ -1,0 +1,15 @@
+.other-books {
+  ul {
+    list-style-type: none; /* Madde işaretlerini kaldırır */
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    text-decoration: none; /* Bağlantılardaki alt çizgiyi kaldırır */
+    color: #333; /* Bağlantı rengi */
+  }
+}

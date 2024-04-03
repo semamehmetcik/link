@@ -11,12 +11,13 @@ const Welcome = () => {
                     <Image src="/images/about/welcome.png" className="img-fluid"/>
                 </Col>
                 <Col md={6}>
-                    <h2 className="mb-3">Welcome to the most preferred IT School</h2>
-                    <p className="mb-3">Through a combination of lectures, readings, discussions, students will gain a solid foundation in educational psychology.</p>
+                   
+                    <h2 className="mb-3">Bir Bilgi Merkezi</h2>
+                    <p className="mb-3">comer; eğitimi, kişisel gelişimi ve toplumsal zenginleşmeyi destekler. Tutkulu ve profesyonel kadromuz, kitap, medya ve kütüphane kaynaklarından oluşan koleksiyonumuzu keşfetmenize yardımcı olmak için buradalar.</p>
 
                     <ul>
-                        <li>Cutting-edge curriculum for the latest IT trends and technologies.</li>
-                        <li>Expert instructors passionate about sharing their knowledge.</li>
+                        <li>Her kitap, bir hikayenin kapısıdır.</li>
+                        <li>Kitaplarla yolculuğa çık, sınırlarını keşfet.</li>
                         <li>Hands-on training and real-world projects for practical experience.</li>
                         <li>Earn industry-recognized certifications for enhanced employability.</li>
                     </ul>

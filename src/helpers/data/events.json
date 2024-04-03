@@ -2,17 +2,17 @@
   {
     "id": 1,
     "title": "Destek Yayın Grubu",
-    "description": "Join our comprehensive Introduction to Programming course where you'll learn the fundamental concepts of programming languages and develop problem-solving skills. Dive into various programming paradigms, data types, control structures, and algorithms. By the end of this course, you'll have a solid foundation in programming that will serve as a stepping stone for your IT journey.",
-    "date": "2023-09-15",
+    "description": "“Yaz indirimleriyle serinleyin!”",
+    "date": "2027-09-15",
     "time": "10:00 AM",
-    "location": "Room 101",
+    "location": "Room Core T",
     "image": "events-01.jpg"
   },
   {
     "id": 2,
     "title": "Hayy Kitap",
-    "description": "Embark on a journey into the world of web development with our Web Development Fundamentals course. Explore the building blocks of the modern web, including HTML5 and CSS3. Learn to create responsive and visually appealing web pages. Get hands-on experience with basic front-end scripting and gain insight into the principles of user-centered design.",
-    "date": "2023-09-18",
+    "description": "“Daha fazlasını ödemeden daha fazla alın!”",
+    "date": "2029-09-18",
     "time": "2:00 PM",
     "location": "Computer Lab A",
     "image": "events-02.jpg"
@@ -20,8 +20,8 @@
   {
     "id": 3,
     "title": "Pegasus Yayınları",
-    "description": "Unlock the power of algorithms in our Introduction to Algorithms course. Delve into the realm of algorithm design and analysis, and understand how they form the backbone of efficient software. Learn about sorting, searching, and graph algorithms. By the end of this course, you'll be equipped with the knowledge to solve complex computational challenges.",
-    "date": "2023-09-20",
+    "description": "“İndirim rüzgarı estiriyoruz, yakalayın!”",
+    "date": "2026-09-20",
     "time": "9:30 AM",
     "location": "Lecture Hall B",
     "image": "events-03.jpg"
@@ -29,17 +29,17 @@
   {
     "id": 4,
     "title": "Sia Kitap",
-    "description": "Discover the heart of data storage and retrieval in our Database Management Systems course. Explore the world of relational databases and master the art of crafting SQL queries. Dive into normalization and database design principles. By the end of this course, you'll have the skills to create and manage robust databases.",
-    "date": "2023-09-25",
+    "description": "“Alışveriş keyfinizi indirimlerle katlayın!”",
+    "date": "2028-09-25",
     "time": "3:00 PM",
-    "location": "Room 205",
+    "location": "Room C",
     "image": "events-04.jpg"
   },
   {
     "id": 5,
     "title": "Siren Yayınları",
-    "description": "Journey into the intricate web of computer networking with our Networking Fundamentals course. Understand the basics of network protocols, routing, and subnetting. Gain insights into networking hardware and security. By the end of this course, you'll be equipped to design and troubleshoot basic network configurations.",
-    "date": "2023-09-28",
+    "description": "“Düşen fiyatlar, yükselen mutluluk!”",
+    "date": "2029-09-28",
     "time": "10:00 AM",
     "location": "Computer Lab B",
     "image": "events-05.jpg"
@@ -47,116 +47,8 @@
   {
     "id": 6,
     "title": "Turkuvaz Yayın Grubu",
-    "description": "Immerse yourself in the critical realm of cybersecurity with our Cybersecurity Basics course. Explore fundamental concepts such as cryptography, network security, and threat detection. Learn to identify common vulnerabilities and implement countermeasures. By the end of this course, you'll be prepared to safeguard digital assets.",
-    "date": "2023-10-03",
-    "time": "1:30 PM",
-    "location": "Lecture Hall A",
-    "image": "events-06.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Destek Yayın Grubu",
-    "description": "Join our comprehensive Introduction to Programming course where you'll learn the fundamental concepts of programming languages and develop problem-solving skills. Dive into various programming paradigms, data types, control structures, and algorithms. By the end of this course, you'll have a solid foundation in programming that will serve as a stepping stone for your IT journey.",
-    "date": "2023-09-15",
-    "time": "10:00 AM",
-    "location": "Room 101",
-    "image": "events-01.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Hayy Kitap",
-    "description": "Embark on a journey into the world of web development with our Web Development Fundamentals course. Explore the building blocks of the modern web, including HTML5 and CSS3. Learn to create responsive and visually appealing web pages. Get hands-on experience with basic front-end scripting and gain insight into the principles of user-centered design.",
-    "date": "2023-09-18",
-    "time": "2:00 PM",
-    "location": "Computer Lab A",
-    "image": "events-02.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Pegasus Yayınları",
-    "description": "Unlock the power of algorithms in our Introduction to Algorithms course. Delve into the realm of algorithm design and analysis, and understand how they form the backbone of efficient software. Learn about sorting, searching, and graph algorithms. By the end of this course, you'll be equipped with the knowledge to solve complex computational challenges.",
-    "date": "2023-09-20",
-    "time": "9:30 AM",
-    "location": "Lecture Hall B",
-    "image": "events-03.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Sia Kitap",
-    "description": "Discover the heart of data storage and retrieval in our Database Management Systems course. Explore the world of relational databases and master the art of crafting SQL queries. Dive into normalization and database design principles. By the end of this course, you'll have the skills to create and manage robust databases.",
-    "date": "2023-09-25",
-    "time": "3:00 PM",
-    "location": "Room 205",
-    "image": "events-04.jpg"
-  },
-  {
-    "id": 5,
-    "title": "Siren Yayınları",
-    "description": "Journey into the intricate web of computer networking with our Networking Fundamentals course. Understand the basics of network protocols, routing, and subnetting. Gain insights into networking hardware and security. By the end of this course, you'll be equipped to design and troubleshoot basic network configurations.",
-    "date": "2023-09-28",
-    "time": "10:00 AM",
-    "location": "Computer Lab B",
-    "image": "events-05.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Turkuvaz Yayın Grubu",
-    "description": "Immerse yourself in the critical realm of cybersecurity with our Cybersecurity Basics course. Explore fundamental concepts such as cryptography, network security, and threat detection. Learn to identify common vulnerabilities and implement countermeasures. By the end of this course, you'll be prepared to safeguard digital assets.",
-    "date": "2023-10-03",
-    "time": "1:30 PM",
-    "location": "Lecture Hall A",
-    "image": "events-06.jpg"
-  },
-  {
-    "id": 1,
-    "title": "Destek Yayın Grubu",
-    "description": "Join our comprehensive Introduction to Programming course where you'll learn the fundamental concepts of programming languages and develop problem-solving skills. Dive into various programming paradigms, data types, control structures, and algorithms. By the end of this course, you'll have a solid foundation in programming that will serve as a stepping stone for your IT journey.",
-    "date": "2023-09-15",
-    "time": "10:00 AM",
-    "location": "Room 101",
-    "image": "events-01.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Hayy Kitap",
-    "description": "Embark on a journey into the world of web development with our Web Development Fundamentals course. Explore the building blocks of the modern web, including HTML5 and CSS3. Learn to create responsive and visually appealing web pages. Get hands-on experience with basic front-end scripting and gain insight into the principles of user-centered design.",
-    "date": "2023-09-18",
-    "time": "2:00 PM",
-    "location": "Computer Lab A",
-    "image": "events-02.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Pegasus Yayınları",
-    "description": "Unlock the power of algorithms in our Introduction to Algorithms course. Delve into the realm of algorithm design and analysis, and understand how they form the backbone of efficient software. Learn about sorting, searching, and graph algorithms. By the end of this course, you'll be equipped with the knowledge to solve complex computational challenges.",
-    "date": "2023-09-20",
-    "time": "9:30 AM",
-    "location": "Lecture Hall B",
-    "image": "events-03.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Sia Kitap",
-    "description": "Discover the heart of data storage and retrieval in our Database Management Systems course. Explore the world of relational databases and master the art of crafting SQL queries. Dive into normalization and database design principles. By the end of this course, you'll have the skills to create and manage robust databases.",
-    "date": "2023-09-25",
-    "time": "3:00 PM",
-    "location": "Room 205",
-    "image": "events-04.jpg"
-  },
-  {
-    "id": 5,
-    "title": "Siren Yayınları",
-    "description": "Journey into the intricate web of computer networking with our Networking Fundamentals course. Understand the basics of network protocols, routing, and subnetting. Gain insights into networking hardware and security. By the end of this course, you'll be equipped to design and troubleshoot basic network configurations.",
-    "date": "2023-09-28",
-    "time": "10:00 AM",
-    "location": "Computer Lab B",
-    "image": "events-05.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Turkuvaz Yayın Grubu",
-    "description": "Immerse yourself in the critical realm of cybersecurity with our Cybersecurity Basics course. Explore fundamental concepts such as cryptography, network security, and threat detection. Learn to identify common vulnerabilities and implement countermeasures. By the end of this course, you'll be prepared to safeguard digital assets.",
-    "date": "2023-10-03",
+    "description": "“Tutkuyla indirim yapmak!”",
+    "date": "2026-10-03",
     "time": "1:30 PM",
     "location": "Lecture Hall A",
     "image": "events-06.jpg"

@@ -7,18 +7,21 @@ import ScrollToTopButton from "../components/common/scroll-to-top-button";
 import { useDispatch } from "react-redux";
 import { setCurrentRecord, setOperation } from "../store/slices/misc-slice";
 
+
 const UserLayout = () => {
   const { pathname } = useLocation();
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setLoading(true);
-    window.document.documentElement.scrollTo({ top: 0 });
-    dispatch(setCurrentRecord(null));
-    dispatch(setOperation(null));
+    console.log("useEffect enter")
+    setLoading(true)
+      window.document.documentElement.scrollTo({ top: 0 });
+      dispatch(setCurrentRecord(null));
+      dispatch(setOperation(null));
     setLoading(false);
-  }, [pathname, dispatch]);
+    console.log("useEffect exit")
+  }, [pathname]);
 
   if(loading) return null;
   return (

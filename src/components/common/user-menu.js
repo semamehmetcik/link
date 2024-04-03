@@ -44,7 +44,7 @@ const UserMenu = () => {
               {user.name} {user?.surname}<AiOutlineMenu />
             </Button>
 
-            <Offcanvas show={showMenu} onHide={handleClose}>
+            <Offcanvas show={showMenu} onHide={handleClose} placement="end">
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Menu</Offcanvas.Title>
               </Offcanvas.Header>

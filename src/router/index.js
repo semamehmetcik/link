@@ -1,6 +1,6 @@
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import LibraryPage from "../components/library-page/library-page"
+import LibraryPage from "../pages/library-page"
 import UserLayout from "../layouts/user-layout";
 import HomePage from "../pages/home-page";
 import CoursesPage from "../pages/courses-page";
@@ -25,6 +25,8 @@ import ContactMessagesPage from "../pages/dashboard/contact-messages-page";
 import ChooseLessonPage from "../pages/dashboard/choose-lesson-page";
 import GradeMeetPage from "../pages/dashboard/grade-meet-page";
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,10 +38,12 @@ const router = createBrowserRouter([
         
       },
       {
-        index: true,
+        path: "library",
         element: <LibraryPage />,
         
       },
+
+
       {
         path: "courses",
         element: <CoursesPage/>
